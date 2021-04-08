@@ -1,0 +1,42 @@
+div.AllCollections *{
+    box-sizing: border-box;
+    margin: 0px auto;
+    padding: 0px;
+}
+
+div.AllCollections {
+    box-sizing: border-box;
+    margin: 0px auto;
+    padding: 0px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    min-height: 100vh;
+    max-height: fit-content;
+    padding-top: 15vh;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.51) 0%, #040000 100%), linear-gradient(90deg, rgba(255,168,5,1) 0%, rgba(0,196,255,1) 83%);
+}
+
+div.AllCollections .Collection {
+    background-color: rgba(255, 255, 255, 0.322);
+    margin-bottom: 4vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+    width: 70%;
+    padding-bottom: 2vh;
+    border-radius: 10px;
+}
+
+div.AllCollections .Collection .album {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+div.AllCollections .Collection .album img {
+    margin: 10px 10px;
+}
